@@ -35,8 +35,6 @@ Future<void> _fetchTodoTitles() async {
     setState(() => _isLoading = false);
   }
 }
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +52,7 @@ Future<void> _fetchTodoTitles() async {
           fontSize: 18,
         ),
       ),
-      backgroundColor: const Color.fromRGBO(255, 255, 255, 0.5),
+      backgroundColor: const Color.fromARGB(128, 235, 241, 253),
       actions: [
         Padding(
           padding: const EdgeInsets.all(12.0),
